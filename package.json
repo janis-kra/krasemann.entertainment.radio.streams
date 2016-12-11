@@ -1,7 +1,7 @@
 {
-  "name": "krasemann.entertainment.radio.streams",
+  "name": "krasemann.entertainment.radio.stations",
   "version": "1.0.0",
-  "description": "Directory of german radio streams",
+  "description": "Directory of (german) radio stations' streams",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
