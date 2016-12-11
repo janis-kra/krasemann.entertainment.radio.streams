@@ -1,0 +1,19 @@
+{
+  "name": "krasemann.entertainment.radio.streams",
+  "version": "1.0.0",
+  "description": "Directory of german radio streams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Janis Krasemann <krasemann.janis@gmail.com> (http://www.github.com/janis-kra)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.0",
+    "eslint-config-janiskra": "^1.4.0"
+  }
+}
