@@ -9,4 +9,4 @@ service.get('/streams', (req, res) => {
   res.status(200).json(streams);
 });
 
-service.listen(3001);
+service.listen(process.env.PORT);
