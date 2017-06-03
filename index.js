@@ -1,11 +1,11 @@
 const service = require('express')();
 
 const streams = [
-  { name: '1LIVE', url: 'http://www.wdr.de/wdrlive/media/einslive.m3u' },
+  { name: '1LIVE', url: 'http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3' },
   { name: 'WDR2', url: 'http://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3' },
-  { name: 'WDR3', url: 'http://www.wdr.de/wdrlive/media/mp3/wdr3_hq.m3u' },
-  { name: 'WDR4', url: 'http://www.wdr.de/wdrlive/media/wdr4.m3u' },
-  { name: 'WDR5', url: 'http://www.wdr.de/wdrlive/media/wdr5.m3u' },
+  { name: 'WDR3', url: 'http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3' },
+  { name: 'WDR4', url: 'http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3' },
+  { name: 'WDR5', url: 'http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3' },
   { name: '89.0 RTL', url: 'http://stream.89.0rtl.de/live/mp3-256/stream.89.0rtl.de/play.m3u' },
   { name: 'Antenne Niederrhein', url: 'http://edge.live.mp3.mdn.newmedia.nacamar.net/ps-antennenr/livestream.mp3.m3u' },
   { name: 'Big FM', url: 'http://srv04.bigstreams.de/bigfm-mp3-64.m3u' },
