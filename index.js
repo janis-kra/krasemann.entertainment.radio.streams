@@ -2,7 +2,7 @@ const service = require('express')();
 
 const streams = [
   { name: '1LIVE', url: 'http://www.wdr.de/wdrlive/media/einslive.m3u' },
-  { name: 'WDR2', url: 'http://www.wdr.de/wdrlive/media/wdr2.m3u' },
+  { name: 'WDR2', url: 'http://wdr-wdr2-rheinruhr.icecast.wdr.de/wdr/wdr2/rheinruhr/mp3/128/stream.mp3' },
   { name: 'WDR3', url: 'http://www.wdr.de/wdrlive/media/mp3/wdr3_hq.m3u' },
   { name: 'WDR4', url: 'http://www.wdr.de/wdrlive/media/wdr4.m3u' },
   { name: 'WDR5', url: 'http://www.wdr.de/wdrlive/media/wdr5.m3u' },
